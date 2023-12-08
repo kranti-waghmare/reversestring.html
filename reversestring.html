@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string return</title>
+</head>
+<body>
+
+
+<!-- ***using html reverse string*** -->
+
+
+<bdo dir="rtl">Hello</bdo>
+
+
+
+    <script>//using js reverse string
+        function check(string){
+            return string.split('').reverse().join('')
+        }
+
+        let str1 = "Hello + hello from Felix Its"
+
+        let str2 = check(str1);
+
+        console.log(`string : ${str1}`);
+
+        console.log(`output : ${str2}`)
+    </script>
+
+
+
+    <script>
+        
+        function value(data){
+
+            return data.split('').reverse().join('');
+
+            
+        }
+        const original = "i love my India";
+
+        console.log(original)
+
+        const output = value(original);
+
+        console.log(output)
+        </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
